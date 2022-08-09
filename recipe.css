@@ -1,0 +1,117 @@
+body {
+  /* background-color: #5f5f5f ; */
+  background-image: url(./img.png);
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: aqua;
+}
+
+
+ul li {
+  font-size: 20px;
+}
+
+ol li:first-chaild {
+  color: red
+}
+.nav {
+
+  width: 100%;
+  text-align: center;
+}
+
+.nav li {
+  display: inline;
+ 
+}
+
+p {
+
+ 
+  margin: 10px 0 8px 0px;
+  padding: 10px 0 10px 0
+}
+
+.header {
+  background-color: #b56663;
+  padding: 10px 10px 10px 10px;
+}
+
+.header a {
+  color: #dddddd;
+}
+
+.main {
+  width: 500px;
+  padding: 20px;
+  border: 1px solid #ffffff;
+  margin: 30px auto 0 auto;
+ /* background: blueviolet url(https://www.recipetineats.com/wp-content/uploads/2015/04/Magic-Cake-Whole-Cake_680px.jpg) top left no-repeat;  */
+}
+
+h1 {
+  text-align: center;
+  margin: 0 0 15px 0;
+  color: #dddddd;
+}
+
+h2 {
+  margin: 10px 0 20px 0;
+  text-align: center;
+}
+
+.home {
+  text-align: center;
+}
+
+.photos {
+  list-style-type: none;
+  padding: 0;
+  display: block;
+  margin: 0 auto 0 auto;
+  width: 60%;
+
+}
+
+.photos li {
+  display: inline;
+  padding-left: 11px;
+}
+.floats { 
+  list-style-type: none;
+  font-weight: bold ;
+}
+.floats img { 
+  float: left;
+  padding-right: 10px;
+}
+ label, input {
+  display: block;
+ }
+ label{ 
+  margin-bottom: 10px;
+}
+input {
+   width: 200px;  
+   margin-bottom: 50px;
+  }
+  input [type=submit] {
+    width: 120px;
+    font: 30px;
+    border: 2px solid #b56663;
+    font-size: 5 0px ;
+    padding: 7px;
+  }
+  textarea { 
+    width: 500px;
+    height: 400px;
+    padding: 7px;
+    border: 2px solid #b56663;
+    margin: 0 0 24px 0 ;
+    font-size: 24px;
+  }
